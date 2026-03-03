@@ -1,0 +1,22 @@
+#operation on set
+my_set = {1, 2, 'a', 'maharaj'}
+print(my_set)
+#Adding elements:
+my_set.add('c')       
+print(my_set)          
+my_set.update([3, 4])  
+print(my_set)    
+
+#Removing elements:
+my_set.remove('a')    
+print(my_set)         
+my_set.discard(1)      
+print(my_set)      
+#Set operations:
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.union(set2))         
+print(set1.intersection(set2))  
+print(set1.difference(set2))    
+
+
