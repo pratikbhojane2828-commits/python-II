@@ -1,0 +1,17 @@
+#creating dictionary:
+my_dict = {'name': ' ch shivaji maharaj', 'age': 50}
+print(my_dict)
+#accessing element:
+print(my_dict['name'])      
+print(my_dict.get('age'))  
+#Modifying/Adding elements:
+my_dict['age'] = 31         
+my_dict['city'] = 'swarajya'     
+print(my_dict)  
+#Removing elements:
+del my_dict['age']        
+print(my_dict)            
+my_dict.pop('city')         
+print(my_dict)              
+
+
