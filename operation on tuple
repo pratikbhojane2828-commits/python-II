@@ -1,0 +1,9 @@
+#operation on tuple
+my_tuple = (1, 2,"maharaj")
+print(my_tuple)
+#Accessing elements:
+print(my_tuple[0])     
+print(my_tuple[1:3]) 
+
+#Modifying elements: Tuples are immutable, so individual elements cannot be changed.
+
